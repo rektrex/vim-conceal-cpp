@@ -20,5 +20,5 @@ syntax match cppOperator "->" conceal cchar=→
 
 syntax match cppOperator "||" conceal cchar=∥
 
-hi link cppOperator Operator
+hi! link cppOperator Operator
 hi! link Conceal Operator
