@@ -7,7 +7,7 @@ syntax clear cppOperator
 
 syntax match cppOperator "++" conceal cchar=⧺
 
-syntax match cppOperator "=\@<!===\@!" conceal cchar=═
+syntax match cppOperator "=\@<!===\@!" conceal cchar=≖
 syntax match cppOperator "!=" conceal cchar=≠
 syntax match cppOperator "<=" conceal cchar=≤
 syntax match cppOperator ">=" conceal cchar=≥
